@@ -29,7 +29,7 @@
   },
   "homepage": "https://github.com/buttercup/diag-cli#readme",
   "dependencies": {
-    "buttercup": "^4.9.0",
+    "buttercup": "^4.9.1",
     "chalk": "^4.1.0",
     "json-size": "^1.0.0",
     "pw": "0.0.4",
