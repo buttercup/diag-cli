@@ -4,6 +4,7 @@ const pw = require("pw");
 const { Credentials, FileDatasource, Vault, createVaultFacade, init } = require("buttercup");
 const { table } = require("table");
 const chalk = require("chalk");
+const jsonSize = require("json-size");
 
 const [command, ...args] = process.argv.slice(2);
 
@@ -32,6 +33,7 @@ async function inspect() {
     data.push([chalk.bold("Aspect"), chalk.bold("Value")]);
     data.push(["Groups", vaultFacade.groups.length]);
     data.push(["Entries", vaultFacade.entries.length]);
+    data.push(["Vault Size (memory, bytes)", jsonSize(vaultFacade)]);
     console.log(table(data));
 }
 

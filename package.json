@@ -6,6 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "bcup-diag": "./source/index.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/buttercup/diag-cli.git"
@@ -24,6 +27,7 @@
   "dependencies": {
     "buttercup": "^4.9.0",
     "chalk": "^4.1.0",
+    "json-size": "^1.0.0",
     "pw": "0.0.4",
     "table": "^5.4.6"
   }
