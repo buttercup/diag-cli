@@ -1,8 +1,12 @@
 {
   "name": "@buttercup/diag",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Diagnostics CLI",
   "main": "source/index.js",
+  "files": [
+    "source/**/*.js",
+    "*.md"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
