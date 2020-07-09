@@ -1,6 +1,6 @@
 {
   "name": "@buttercup/diag",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Diagnostics CLI",
   "main": "source/index.js",
   "files": [
