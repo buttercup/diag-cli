@@ -1,0 +1,30 @@
+{
+  "name": "@buttercup/diag",
+  "version": "0.0.0",
+  "description": "Diagnostics CLI",
+  "main": "source/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/buttercup/diag-cli.git"
+  },
+  "keywords": [
+    "buttercup",
+    "diagnostics",
+    "diag"
+  ],
+  "author": "Perry Mitchell <perry@perrymitchell.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/buttercup/diag-cli/issues"
+  },
+  "homepage": "https://github.com/buttercup/diag-cli#readme",
+  "dependencies": {
+    "buttercup": "^4.9.0",
+    "chalk": "^4.1.0",
+    "pw": "0.0.4",
+    "table": "^5.4.6"
+  }
+}
